@@ -1,6 +1,12 @@
 /* Select the paragraphs that come immediately after a <hr> element and make them red */
+hr + p {
+  color: red;
+}
 
 /* Select the paragraphs that are siblings to h2 elements and give them a 20 pixel font size*/
+h2 ~ p {
+  font-size: 20px;
+}
 
 /* Select the link inside of the footer and give it a magenta color WHEN a user hovers over it */
 
